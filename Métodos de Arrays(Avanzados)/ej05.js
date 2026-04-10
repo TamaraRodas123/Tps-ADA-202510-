@@ -1,0 +1,12 @@
+/*Ejercicio 5: Recorre una lista e imprime cada elemento
+Tienes una lista de frutas ['manzana', 'banana', 'cereza']. Tu tarea es recorrer la lista y
+mostrar el nombre de cada fruta en la consola, una por una.
+● forEach(): Útil para recorrer elementos sin modificar el array.
+*/
+const prompt=require('prompt-sync')();
+
+let listaFrutas=['manzana','banana','cereza'];
+
+listaFrutas.forEach(function(frutas){
+    console.log(frutas);
+});
